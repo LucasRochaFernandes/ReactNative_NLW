@@ -10,6 +10,8 @@ export const styles = StyleSheet.create({
   },
   content: {
     marginTop: -40,
+    paddingHorizontal: 50,
+    width: "100%",
   },
   image: {
     width: "100%",
@@ -25,5 +27,6 @@ export const styles = StyleSheet.create({
     color: theme.color.heading,
     fontSize: 15,
     textAlign: "center",
+    marginBottom: 60,
   },
 });

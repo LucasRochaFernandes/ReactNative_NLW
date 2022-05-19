@@ -31,9 +31,8 @@ export function SignIn() {
           seus games favoritos {`\n`}
           com seus amigos
         </Text>
+        <ButtonIcon titleIcon={`Entrar com discord`} />
       </View>
-
-      <ButtonIcon />
     </View>
   );
 }
