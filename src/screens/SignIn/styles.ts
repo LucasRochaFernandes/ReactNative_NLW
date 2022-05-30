@@ -4,7 +4,7 @@ import { theme } from "../../global/styles/theme";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: theme.color.background,
+    backgroundColor: theme.colors.secondary100,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -18,15 +18,19 @@ export const styles = StyleSheet.create({
     height: 360,
   },
   title: {
-    color: theme.color.heading,
+    color: theme.colors.heading,
     textAlign: "center",
     fontSize: 40,
-    marginBottom: 16,
+    marginBottom: -35,
+    fontFamily: theme.fonts.title700,
+    lineHeight: 40,
   },
   subtitle: {
-    color: theme.color.heading,
+    color: theme.colors.heading,
     fontSize: 15,
     textAlign: "center",
-    marginBottom: 60,
+    marginBottom: 25,
+    fontFamily: theme.fonts.title500,
+    lineHeight: 25,
   },
 });
